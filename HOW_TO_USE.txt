@@ -1,0 +1,12 @@
+==REMINDER==
+Make sure to generate the API_ID and API_HASH from https://my.telegram.org
+
+==HOW TO SET UP==
+run `pip install -r requirements.txt`
+
+==STEPS TO USE==
+note: make sure you run this command inside this directory.
+
+step 1: run `python verify.py [api_id] [api_hash] [phone_number]` in the terminal
+step 2: run `python scraper.py` in the terminal
+
