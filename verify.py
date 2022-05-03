@@ -2,9 +2,9 @@ from telethon.sync import TelegramClient
 from telethon.errors.rpcerrorlist import PhoneNumberBannedError
 import sys
 
-api_id = int(sys.argv[1])
-api_hash = str(sys.argv[2])
-phone = str(sys.argv[3])
+api_id = int((input)'api id: ')
+api_hash = str((input)'api hash: ')
+phone = str((input)'api phone: ')
 
 client = TelegramClient(f'sessions\\{phone}', api_id, api_hash)
 
